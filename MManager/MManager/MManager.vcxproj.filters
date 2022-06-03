@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="mm\vad.h" />
+    <ClInclude Include="mm\mmtypes.h" />
+    <ClInclude Include="rtl\osversion.h" />
+    <ClInclude Include="mmanager-dispatch.h" />
+    <ClInclude Include="mmanager-globals.h" />
+    <ClInclude Include="mmanager-routines.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mm\vad.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="mmanager-dispatch.c" />
+    <ClCompile Include="mmanager-routines.c" />
+  </ItemGroup>
+</Project>
