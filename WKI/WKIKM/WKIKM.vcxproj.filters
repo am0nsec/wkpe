@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="wki\wki.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wki\wki.h" />
+    <ClInclude Include="ki-globals.h" />
+  </ItemGroup>
+</Project>
