@@ -72,7 +72,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <TargetName>wkium.exe</TargetName>
+    <TargetName>wkium</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -119,7 +119,8 @@
       <GenerateTypeLibrary>false</GenerateTypeLibrary>
     </Midl>
     <PostBuildEvent>
-      <Command>powershell.exe -w hidden "$(ProjectDir)tools\post-build.ps1"</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -153,9 +154,6 @@
     <ClInclude Include="inc\msdia\inlcude\dia2.h" />
     <ClInclude Include="inc\msdia\inlcude\diacreate.h" />
     <ClInclude Include="inc\registry.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="tools\post-build.ps1" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

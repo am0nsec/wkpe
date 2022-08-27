@@ -30,7 +30,7 @@ Windows Kernel Introspection (WKI).
 #define WKI_CURRENTVERSION_KEY_NAME L"\\Registry\\Machine\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion"
 
 // Name of the Windows Registry key that store all the WKI information.
-#define WKI_KINTROSPECTION_KEY_NAME L"\\Registry\\Machine\\SOFTWARE\\KIntrospection"
+#define WKI_KINTROSPECTION_KEY_NAME L"\\Registry\\Machine\\SOFTWARE\\WKI"
 
 
 /// <summary>

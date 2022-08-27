@@ -14,11 +14,8 @@ Windows Registry related routines. Used to create and store symbols for access f
 #include <Windows.h>
 #include <stdio.h>
 #include <strsafe.h>
-#include <winver.h>
 
 #include "interface.h"
-
-#pragma comment(lib, "version.lib")
 
 // Base registry key
 #define REGISTRY_BASE_KEY     L"SOFTWARE\\WKI"

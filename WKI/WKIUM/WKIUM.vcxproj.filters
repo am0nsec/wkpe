@@ -16,7 +16,4 @@
     <ClInclude Include="inc\interface.h" />
     <ClInclude Include="inc\registry.h" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="tools\post-build.ps1" />
-  </ItemGroup>
 </Project>
