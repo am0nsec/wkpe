@@ -331,7 +331,8 @@ EXTERN_C NTSTATUS WkipGetSystemImageBase(
 			break;
 		}
 	}
-
+	NT_ASSERT(WkiGlobal.KernelBase != 0x00);
+	
 	ExFreePoolWithTag((PVOID)ExtendedInfo, WKI_MM_TAG);
 	return STATUS_SUCCESS;
 }
